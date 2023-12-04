@@ -27,4 +27,4 @@ function setMaria(valor) {
     maria = valor;
 }
 
-export {deJoaoParaMaria, deMariaParaJoao, getJoao, getMaria, setJoao, setMaria};
+export {deJoaoParaMaria, deMariaParaJoao, getJoao, getMaria, setJoao, setMaria, joao, maria};
