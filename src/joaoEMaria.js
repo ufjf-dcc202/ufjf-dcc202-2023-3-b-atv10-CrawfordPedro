@@ -19,4 +19,12 @@ function getMaria() {
     return maria;
 }
 
-export {deJoaoParaMaria, deMariaParaJoao, getJoao, getMaria};
+function setJoao(valor) {
+    joao = valor;
+}
+
+function setMaria(valor) {
+    maria = valor;
+}
+
+export {deJoaoParaMaria, deMariaParaJoao, getJoao, getMaria, setJoao, setMaria};
