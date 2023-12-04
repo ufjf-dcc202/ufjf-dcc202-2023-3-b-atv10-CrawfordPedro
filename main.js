@@ -1,3 +1,10 @@
-import { sourceMapsEnabled } from "process"
-import {deJoaoParaMaria, deMariaParaJoao, getJoao, getMaria, setJoao, setMaria} from "./src/joaoEMaria.js"
+import {deJoaoParaMaria, deMariaParaJoao, getJoao, getMaria, setJoao, setMaria, joao, maria} from "./src/joaoEMaria.js"
 
+getJoao();
+
+setJoao(4);
+
+deJoaoParaMaria();
+
+getJoao();
+getMaria();
