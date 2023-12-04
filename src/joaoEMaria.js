@@ -11,4 +11,12 @@ function deMariaParaJoao() {
     maria = 0;
 }
 
-export {deJoaoParaMaria};
+function getJoao() {
+    return joao;
+}
+
+function getMaria() {
+    return maria;
+}
+
+export {deJoaoParaMaria, deMariaParaJoao, getJoao, getMaria};
